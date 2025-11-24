@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Longhorns Racing — Lambert HS STEM Racing</title>
+  <meta name="description" content="Longhorns Racing — Lambert High School STEM Racing Team. CAD • CNC • 3D Printing • Community • Sponsorships" />
+  <link rel="icon" href="assets/logo.png" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- GSAP (for scroll animations) + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Longhorns Racing logo" class="logo" />
+      <div class="brand-text">
+        <h1>Longhorns Racing</h1>
+        <p class="muted">Lambert High School — STEM Racing Team</p>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#tech">Tech</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#contact" class="cta">Sponsor Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main id="main">
+    <section id="hero" class="panel hero-panel">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="ascii-wrap" aria-hidden="true">
+<pre class="ascii">
+  _     _                     _                    
+ | |   (_)  ___   _ __     __| |  ___  _ __   _   _ 
+ | |   | | / _ \ | '_ \   / _` | / _ \| '_ \ | | | |
+ | |___| || (_) || | | | | (_| ||  __/| | | || |_| |
+ |_____|_| \___/ |_| |_|  \__,_| \___||_| |_| \__,_|
+</pre>
+          </div>
+          <h2 class="hero-title">Creative. Dedicated. Race-ready.</h2>
+          <p class="hero-sub">Lambert High School — Professional class STEM racing team. CAD • CNC • 3D printing • community outreach.</p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#sponsors">Become a Sponsor</a>
+            <a class="btn ghost" href="#about">Learn More</a>
+          </div>
+          <ul class="badges">
+            <li>State Champions</li>
+            <li>Eastern Region Runner-up</li>
+            <li>Best Verbal Presentation</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <!-- hero image placeholder; replace hero.jpg with your image -->
+          <div class="hero-media">
+            <img src="assets/hero.jpg" alt="Longhorns Racing car / team" />
+            <div class="bitmap-overlay" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint">Scroll to explore ↓</div>
+    </section>
+
+    <!-- ABOUT / MISSION -->
+    <section id="about" class="panel about-panel">
+      <div class="container">
+        <h3 class="section-title">About Longhorns Racing</h3>
+        <p class="lead">We combine creativity with engineering discipline. Students design in CAD, fabricate with CNC and 3D printing, and compete at regional and state levels — all while growing community partnerships.</p>
+        <div class="three-cols">
+          <article>
+            <h4>Our Mission</h4>
+            <p>Build, learn, and give back: prepare students for STEM careers and community leadership.</p>
+          </article>
+          <article>
+            <h4>Tools</h4>
+            <p>CAD • CNC • 3D Printing • Simulation • Data Analysis</p>
+          </article>
+          <article>
+            <h4>Class</h4>
+            <p>Professional class (Lambert HS, Georgia). We mentor younger teams and run outreach events.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH HIGHLIGHTS -->
+    <section id="tech" class="panel tech-panel">
+      <div class="container">
+        <h3 class="section-title">Tech & Capabilities</h3>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <div class="icon">⚙️</div>
+            <h4>CAD</h4>
+            <p>Solid modelling & simulation workflows.</p>
+          </div>
+          <div class="tech-card">
+            <div class="icon">🔩</div>
+            <h4>CNC</h4>
+            <p>Precision parts and machining practices.</p>
+          </div>
+          <div class="tech-card">
+            <div class="icon">🖨️</div>
+            <h4>3D Printing</h4>
+            <p>Rapid prototyping, lightweight structures.</p>
+          </div>
+          <div class="tech-card">
+            <div class="icon">📱</div>
+            <h4>Digital Media</h4>
+            <p>Presentations, outreach, and sponsor reporting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards" class="panel awards-panel">
+      <div class="container narrow">
+        <h3 class="section-title">Accolades</h3>
+        <ul class="award-list">
+          <li>State Champions — Year(s)</li>
+          <li>Developmental Class Runner-ups</li>
+          <li>Eastern Region Runner-ups</li>
+          <li>Best Verbal Presentation</li>
+          <li>Best Digital Media</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SPONSORS / CTA -->
+    <section id="sponsors" class="panel sponsors-panel">
+      <div class="container">
+        <div class="sponsor-grid">
+          <div>
+            <h3 class="section-title">Sponsorship</h3>
+            <p>We welcome technical partners, material sponsors, and community donors. Sponsor packages include logo placement, social media exposure, event presence, and project reports.</p>
+            <a class="btn primary" href="#contact">Contact the Team</a>
+          </div>
+          <div class="sponsor-logos">
+            <!-- Replace with sponsor logos -->
+            <img src="assets/logo.png" alt="placeholder sponsor logo" />
+            <img src="assets/logo.png" alt="placeholder sponsor logo" />
+            <img src="assets/logo.png" alt="placeholder sponsor logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <section id="contact" class="panel contact-panel">
+      <div class="container narrow">
+        <h3 class="section-title">Contact & Join</h3>
+        <p>Coach / Lead email: <a href="mailto:longhornsracing@lambert.edu">longhornsracing@lambert.edu</a></p>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@company.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="How would you like to work with us?"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+
+        <footer class="site-footer">
+          <small>© Longhorns Racing — Lambert High School, Georgia</small>
+          <div class="socials">
+            <a href="#" aria-label="instagram">IG</a>
+            <a href="#" aria-label="youtube">YT</a>
+            <a href="#" aria-label="x">X</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
