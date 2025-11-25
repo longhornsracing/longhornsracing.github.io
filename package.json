@@ -1,1 +1,0 @@
-{ "name": "longhornsracing.github.io", "version": "1.0.0", "scripts": { "build": "babel index.js -o bundle.js" }, "devDependencies": { "@babel/cli": "^7.0.0", "@babel/preset-env": "^7.0.0", "@babel/preset-react": "^7.0.0" } }
