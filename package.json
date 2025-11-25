@@ -1,1 +1,22 @@
-{ "name": "longhornsracing.github.io", "version": "1.0.0", "scripts": { "build": "babel index.js -o bundle.js" }, "devDependencies": { "@babel/cli": "^7.0.0", "@babel/preset-env": "^7.0.0", "@babel/preset-react": "^7.0.0" } }
+{
+  "name": "longhornsracing.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "gh-pages": "^5.0.0"
+  }
+}
